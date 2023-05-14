@@ -12,7 +12,7 @@ A aplicação funciona da mesma forma porém com uma interface gráfica amigáve
 
 ## Script `Batch`
 
-> Certifique-se que o banco de dados `FACILITE.FDB` está no local padrão de instalação `C:\SINCO\FACILITE.FDB`
+> Certifique-se que o banco de dados está no local padrão de instalação `C:\SINCO\INTEGRADO\FACILITE.FDB`
 
 Para utilizar, vá até a pasta batch/ e execute o script.
 
@@ -31,6 +31,8 @@ Para utilizar, vá até a pasta batch/ e execute o script.
 </table>
 
 ## Aplicação `Electron`
+
+> Certifique-se que o banco de dados está no local padrão de instalação `C:\SINCO\INTEGRADO\FACILITE.FDB`
 
 Para utilizar, vá até a pasta electron e execute os seguintes comandos:
 
