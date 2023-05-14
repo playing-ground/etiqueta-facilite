@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Etiqueta</title>
+  </head>
+  <body>
+    <form id="date-form">
+      <label for="initial-date">Data inicial: </label> <br />
+      <input id="initial-date" type="date" /> <br />
+
+      <label for="final-date">Data final: </label> <br />
+      <input id="final-date" type="date" /> <br />
+
+      <br>
+
+      <button type="submit">Enviar</button>
+
+      <br>
+
+      <h2 id="status"></h2>
+    </form>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

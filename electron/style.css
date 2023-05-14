@@ -1,0 +1,8 @@
+body {
+  display: grid;
+  place-content: center;
+}
+
+h2 {
+  color: hsl(120, 100%, 25%);
+}
